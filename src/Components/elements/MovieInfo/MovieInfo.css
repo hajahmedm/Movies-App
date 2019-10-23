@@ -1,0 +1,44 @@
+.rmdb-movieinfo {
+    background-size: cover !important;
+    background-position: center !important;
+    width: 100%;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    animation: animateMovieinfo 1s;
+  }
+  
+  @keyframes animateMovieinfo {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .rmdb-movieinfo-content {
+    max-width: 1280px;
+    min-height: 450px;
+    margin: 0 auto;
+    background: rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  .rmdb-movieinfo-thumb {
+    width: 300px;
+    float: left;
+  }
+  
+  .rmdb-movieinfo-text {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    color: #fff;
+    overflow: hidden;
+  }
+  
+  .rmdb-movieinfo-text h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 48px;
+    margin: 0;
+  }
